@@ -4,8 +4,7 @@ export default function JsonLd() {
     '@type': ['Organization', 'LocalBusiness'],
     '@id': 'https://chinesetime.ru/#organization',
     name: 'Chinese Time',
-    legalName: 'ООО «Чайниз Тайм»',
-    alternateName: ['Чайниз Тайм', 'ChineseTime'],
+    alternateName: ['ChineseTime'],
     description:
       'Доставка грузов из Китая в Россию с 2020 года. Авиа, авто, ж/д и стандартная доставка. ' +
       'Собственные склады в Москве и Гуанчжоу. Таможенное оформление, поиск и выкуп товаров у поставщиков.',
@@ -13,22 +12,13 @@ export default function JsonLd() {
     logo: 'https://chinesetime.ru/logo.png',
     image: 'https://chinesetime.ru/og-image.png',
     foundingDate: '2020',
-    taxID: '9710105741',
-    vatID: '9710105741',
     telephone: '+7-495-120-99-59',
     email: 'info@chinesetime.ru',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Малый Предтеченский пер., д. 1/2 стр. 1',
       addressLocality: 'Москва',
-      postalCode: '123242',
       addressCountry: 'RU',
       addressRegion: 'Москва',
-    },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: 55.759637,
-      longitude: 37.569536,
     },
     openingHoursSpecification: [
       {
@@ -57,7 +47,6 @@ export default function JsonLd() {
     sameAs: [
       'https://wa.me/79254498440',
       'https://t.me/+79254498440',
-      'https://www.rusprofile.ru/id/1227700746085',
     ],
     hasOfferCatalog: {
       '@type': 'OfferCatalog',

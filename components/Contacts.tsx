@@ -9,7 +9,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: 'Адрес',
-    value: 'г. Москва, Малый Предтеченский, д. 1/2 стр. 1',
+    value: 'г. Москва',
     color: '#E63946',
   },
   {
@@ -250,8 +250,7 @@ export default function Contacts() {
                       <a href="/policy" target="_blank" rel="noopener noreferrer"
                         className="text-[#E63946] hover:underline" onClick={(e) => e.stopPropagation()}>
                         Политикой конфиденциальности
-                      </a>
-                      {' '}ООО «Чайниз Тайм»
+                      </a>.
                     </span>
                   </label>
 

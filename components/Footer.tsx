@@ -86,7 +86,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin size={15} className="text-[#E63946] mt-0.5 shrink-0" />
-                <span className="text-slate-500 text-sm">г. Москва, Малый Предтеченский, д. 1/2 стр. 1</span>
+                <span className="text-slate-500 text-sm">г. Москва</span>
               </li>
               <li>
                 <a href="tel:84951209959" className="flex items-center gap-3 text-slate-500 hover:text-white text-sm transition-colors">
@@ -104,18 +104,8 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Legal entity info — required by Russian law */}
+        {/* Legal entity info */}
         <div className="mt-12 pt-8" style={{ borderTop: '1px solid rgba(255,255,255,0.05)' }}>
-          <div
-            className="p-4 rounded-xl mb-6"
-            style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.04)' }}
-          >
-            <p className="text-slate-600 text-xs leading-relaxed">
-              <strong className="text-slate-500">ООО «Чайниз Тайм»</strong> · 
-              Юр. адрес: 123242, г. Москва, Малый Предтеченский пер., д. 1/2, стр. 1 · 
-              ИНН: 9710105741 · ОГРН: 1227700746085 · КПП: 770301001 · ОКПО: 97680332
-            </p>
-          </div>
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
             <p className="text-slate-600 text-sm">© 2020–2024 Chinese Time. Все права защищены.</p>
             <div className="flex items-center gap-4">

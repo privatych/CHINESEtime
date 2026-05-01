@@ -34,8 +34,7 @@ export default function OfferPage() {
           style={{ background: 'rgba(230,57,70,0.08)', border: '1px solid rgba(230,57,70,0.2)' }}
         >
           <p className="text-slate-300">
-            Настоящий документ является официальным предложением ООО «Чайниз Тайм» заключить
-            договор на оказание услуг по доставке грузов. Совершение конклюдентных действий
+            Настоящий документ является официальным предложением на оказание услуг по доставке грузов. Совершение конклюдентных действий
             (отправка заявки, оплата счёта) означает полное и безоговорочное принятие оферты
             в соответствии со ст. 438 ГК РФ.
           </p>
@@ -46,7 +45,7 @@ export default function OfferPage() {
           <section>
             <h2 className="text-white font-bold text-lg mb-3">1. Термины и определения</h2>
             <div className="space-y-2 text-slate-400">
-              <p><strong className="text-white">Исполнитель</strong> — ООО «Чайниз Тайм», оказывающий услуги по доставке грузов.</p>
+              <p><strong className="text-white">Исполнитель</strong> — компания, оказывающая услуги по доставке грузов.</p>
               <p><strong className="text-white">Заказчик</strong> — юридическое или физическое лицо, акцептовавшее настоящую Оферту.</p>
               <p><strong className="text-white">Груз</strong> — товарно-материальные ценности, принятые к перевозке.</p>
               <p><strong className="text-white">Услуги</strong> — комплекс услуг по организации доставки грузов из КНР в РФ.</p>
@@ -172,9 +171,7 @@ export default function OfferPage() {
           <section>
             <h2 className="text-white font-bold text-lg mb-3">10. Реквизиты исполнителя</h2>
             <div className="text-slate-400 space-y-1">
-              <p>ООО «Чайниз Тайм»</p>
-              <p>ИНН: 9710105741 · ОГРН: 1227700746085 · КПП: 770301001 · ОКПО: 97680332</p>
-              <p>Юридический адрес: 123242, г. Москва, Малый Предтеченский пер., д. 1/2, стр. 1</p>
+              <p>Chinese Time</p>
               <p>Email: <a href="mailto:info@chinesetime.ru" className="text-[#E63946] hover:underline">info@chinesetime.ru</a></p>
               <p>Телефон: <a href="tel:84951209959" className="text-[#E63946] hover:underline">8-495-120-99-59</a></p>
             </div>

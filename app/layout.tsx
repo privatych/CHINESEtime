@@ -6,8 +6,7 @@ const SITE_NAME = 'Chinese Time'
 const TITLE = 'Chinese Time — Доставка грузов из Китая в Россию'
 const DESCRIPTION =
   'Доставка грузов из Китая в Россию с 2020 года. Авиа, авто, ж/д и стандартная доставка. ' +
-  'Собственные склады в Москве и Гуанчжоу. Таможенное оформление, поиск и выкуп товаров у поставщиков. ' +
-  'ООО «Чайниз Тайм» — ИНН 9710105741, ОГРН 1227700746085.'
+  'Собственные склады в Москве и Гуанчжоу. Таможенное оформление, поиск и выкуп товаров у поставщиков.'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -34,9 +33,9 @@ export const metadata: Metadata = {
     'маркетплейс Китай',
     'промышленное оборудование из Китая',
   ],
-  authors: [{ name: 'ООО «Чайниз Тайм»', url: SITE_URL }],
-  creator: 'ООО «Чайниз Тайм»',
-  publisher: 'ООО «Чайниз Тайм»',
+  authors: [{ name: 'Chinese Time', url: SITE_URL }],
+  creator: 'Chinese Time',
+  publisher: 'Chinese Time',
   robots: {
     index: true,
     follow: true,
@@ -76,10 +75,9 @@ export const metadata: Metadata = {
   },
   other: {
     'og:locale:alternate': 'en_US',
-    'geo.region': 'RU-MOW',
-    'geo.placename': 'Москва',
-    'geo.position': '55.759637;37.569536',
-    'ICBM': '55.759637, 37.569536',
+    'geo.region': 'RU',
+    // Removed geo coordinates for privacy
+  },
   },
 }
 
